@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048B209F1AD11C2E009A2DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B209E1AD11C2E009A2DFB /* main.m */; };
+		048B20A21AD11C2E009A2DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B20A11AD11C2E009A2DFB /* AppDelegate.m */; };
+		048B20A51AD11C2E009A2DFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B20A41AD11C2E009A2DFB /* ViewController.m */; };
+		048B20A81AD11C2E009A2DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B20A61AD11C2E009A2DFB /* Main.storyboard */; };
+		048B20AA1AD11C2E009A2DFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048B20A91AD11C2E009A2DFB /* Images.xcassets */; };
+		048B20AD1AD11C2E009A2DFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048B20AB1AD11C2E009A2DFB /* LaunchScreen.xib */; };
+		048B20B91AD11C2E009A2DFB /* GPTCPScoketToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B20B81AD11C2E009A2DFB /* GPTCPScoketToolTests.m */; };
+		048B20C81AD11DA8009A2DFB /* GPIMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B20C71AD11DA8009A2DFB /* GPIMTool.m */; };
+		048B20CC1AD14785009A2DFB /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B20CB1AD14785009A2DFB /* GCDAsyncSocket.m */; };
+		048B20D01AD14BD4009A2DFB /* CCIMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B20CF1AD14BD4009A2DFB /* CCIMTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048B20B31AD11C2E009A2DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048B20911AD11C2E009A2DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048B20981AD11C2E009A2DFB;
+			remoteInfo = GPTCPScoketTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048B20991AD11C2E009A2DFB /* GPTCPScoketTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPTCPScoketTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048B209D1AD11C2E009A2DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B209E1AD11C2E009A2DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048B20A01AD11C2E009A2DFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048B20A11AD11C2E009A2DFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048B20A31AD11C2E009A2DFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048B20A41AD11C2E009A2DFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048B20A71AD11C2E009A2DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048B20A91AD11C2E009A2DFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		048B20AC1AD11C2E009A2DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		048B20B21AD11C2E009A2DFB /* GPTCPScoketToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTCPScoketToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048B20B71AD11C2E009A2DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B20B81AD11C2E009A2DFB /* GPTCPScoketToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPTCPScoketToolTests.m; sourceTree = "<group>"; };
+		048B20C61AD11DA8009A2DFB /* GPIMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPIMTool.h; sourceTree = "<group>"; };
+		048B20C71AD11DA8009A2DFB /* GPIMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPIMTool.m; sourceTree = "<group>"; };
+		048B20CA1AD14785009A2DFB /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		048B20CB1AD14785009A2DFB /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		048B20CE1AD14BD4009A2DFB /* CCIMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIMTool.h; sourceTree = "<group>"; };
+		048B20CF1AD14BD4009A2DFB /* CCIMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIMTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048B20961AD11C2E009A2DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048B20AF1AD11C2E009A2DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048B20901AD11C2E009A2DFB = {
+			isa = PBXGroup;
+			children = (
+				048B209B1AD11C2E009A2DFB /* GPTCPScoketTool */,
+				048B20B51AD11C2E009A2DFB /* GPTCPScoketToolTests */,
+				048B209A1AD11C2E009A2DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048B209A1AD11C2E009A2DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048B20991AD11C2E009A2DFB /* GPTCPScoketTool.app */,
+				048B20B21AD11C2E009A2DFB /* GPTCPScoketToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048B209B1AD11C2E009A2DFB /* GPTCPScoketTool */ = {
+			isa = PBXGroup;
+			children = (
+				048B20CD1AD14B3A009A2DFB /* CCIMTool */,
+				048B20C91AD14785009A2DFB /* CocoaAsyncSocket */,
+				048B20C21AD11CA8009A2DFB /* GPTCPScoketTool(有问题待修复) */,
+				048B20A01AD11C2E009A2DFB /* AppDelegate.h */,
+				048B20A11AD11C2E009A2DFB /* AppDelegate.m */,
+				048B20A31AD11C2E009A2DFB /* ViewController.h */,
+				048B20A41AD11C2E009A2DFB /* ViewController.m */,
+				048B20A61AD11C2E009A2DFB /* Main.storyboard */,
+				048B20A91AD11C2E009A2DFB /* Images.xcassets */,
+				048B20AB1AD11C2E009A2DFB /* LaunchScreen.xib */,
+				048B209C1AD11C2E009A2DFB /* Supporting Files */,
+			);
+			path = GPTCPScoketTool;
+			sourceTree = "<group>";
+		};
+		048B209C1AD11C2E009A2DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048B209D1AD11C2E009A2DFB /* Info.plist */,
+				048B209E1AD11C2E009A2DFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048B20B51AD11C2E009A2DFB /* GPTCPScoketToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				048B20B81AD11C2E009A2DFB /* GPTCPScoketToolTests.m */,
+				048B20B61AD11C2E009A2DFB /* Supporting Files */,
+			);
+			path = GPTCPScoketToolTests;
+			sourceTree = "<group>";
+		};
+		048B20B61AD11C2E009A2DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048B20B71AD11C2E009A2DFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048B20C21AD11CA8009A2DFB /* GPTCPScoketTool(有问题待修复) */ = {
+			isa = PBXGroup;
+			children = (
+				048B20C61AD11DA8009A2DFB /* GPIMTool.h */,
+				048B20C71AD11DA8009A2DFB /* GPIMTool.m */,
+			);
+			name = "GPTCPScoketTool(有问题待修复)";
+			path = GPTCPScoketTool;
+			sourceTree = "<group>";
+		};
+		048B20C91AD14785009A2DFB /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				048B20CA1AD14785009A2DFB /* GCDAsyncSocket.h */,
+				048B20CB1AD14785009A2DFB /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		048B20CD1AD14B3A009A2DFB /* CCIMTool */ = {
+			isa = PBXGroup;
+			children = (
+				048B20CE1AD14BD4009A2DFB /* CCIMTool.h */,
+				048B20CF1AD14BD4009A2DFB /* CCIMTool.m */,
+			);
+			path = CCIMTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048B20981AD11C2E009A2DFB /* GPTCPScoketTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048B20BC1AD11C2E009A2DFB /* Build configuration list for PBXNativeTarget "GPTCPScoketTool" */;
+			buildPhases = (
+				048B20951AD11C2E009A2DFB /* Sources */,
+				048B20961AD11C2E009A2DFB /* Frameworks */,
+				048B20971AD11C2E009A2DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPTCPScoketTool;
+			productName = GPTCPScoketTool;
+			productReference = 048B20991AD11C2E009A2DFB /* GPTCPScoketTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048B20B11AD11C2E009A2DFB /* GPTCPScoketToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048B20BF1AD11C2E009A2DFB /* Build configuration list for PBXNativeTarget "GPTCPScoketToolTests" */;
+			buildPhases = (
+				048B20AE1AD11C2E009A2DFB /* Sources */,
+				048B20AF1AD11C2E009A2DFB /* Frameworks */,
+				048B20B01AD11C2E009A2DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048B20B41AD11C2E009A2DFB /* PBXTargetDependency */,
+			);
+			name = GPTCPScoketToolTests;
+			productName = GPTCPScoketToolTests;
+			productReference = 048B20B21AD11C2E009A2DFB /* GPTCPScoketToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048B20911AD11C2E009A2DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = gpr;
+				TargetAttributes = {
+					048B20981AD11C2E009A2DFB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					048B20B11AD11C2E009A2DFB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 048B20981AD11C2E009A2DFB;
+					};
+				};
+			};
+			buildConfigurationList = 048B20941AD11C2E009A2DFB /* Build configuration list for PBXProject "GPTCPScoketTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048B20901AD11C2E009A2DFB;
+			productRefGroup = 048B209A1AD11C2E009A2DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048B20981AD11C2E009A2DFB /* GPTCPScoketTool */,
+				048B20B11AD11C2E009A2DFB /* GPTCPScoketToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048B20971AD11C2E009A2DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048B20A81AD11C2E009A2DFB /* Main.storyboard in Resources */,
+				048B20AD1AD11C2E009A2DFB /* LaunchScreen.xib in Resources */,
+				048B20AA1AD11C2E009A2DFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048B20B01AD11C2E009A2DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048B20951AD11C2E009A2DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048B20C81AD11DA8009A2DFB /* GPIMTool.m in Sources */,
+				048B20CC1AD14785009A2DFB /* GCDAsyncSocket.m in Sources */,
+				048B20A51AD11C2E009A2DFB /* ViewController.m in Sources */,
+				048B20A21AD11C2E009A2DFB /* AppDelegate.m in Sources */,
+				048B209F1AD11C2E009A2DFB /* main.m in Sources */,
+				048B20D01AD14BD4009A2DFB /* CCIMTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048B20AE1AD11C2E009A2DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048B20B91AD11C2E009A2DFB /* GPTCPScoketToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048B20B41AD11C2E009A2DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048B20981AD11C2E009A2DFB /* GPTCPScoketTool */;
+			targetProxy = 048B20B31AD11C2E009A2DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048B20A61AD11C2E009A2DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048B20A71AD11C2E009A2DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048B20AB1AD11C2E009A2DFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048B20AC1AD11C2E009A2DFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048B20BA1AD11C2E009A2DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048B20BB1AD11C2E009A2DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048B20BD1AD11C2E009A2DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPTCPScoketTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048B20BE1AD11C2E009A2DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPTCPScoketTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048B20C01AD11C2E009A2DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GPTCPScoketToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTCPScoketTool.app/GPTCPScoketTool";
+			};
+			name = Debug;
+		};
+		048B20C11AD11C2E009A2DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GPTCPScoketToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTCPScoketTool.app/GPTCPScoketTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048B20941AD11C2E009A2DFB /* Build configuration list for PBXProject "GPTCPScoketTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B20BA1AD11C2E009A2DFB /* Debug */,
+				048B20BB1AD11C2E009A2DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048B20BC1AD11C2E009A2DFB /* Build configuration list for PBXNativeTarget "GPTCPScoketTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B20BD1AD11C2E009A2DFB /* Debug */,
+				048B20BE1AD11C2E009A2DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048B20BF1AD11C2E009A2DFB /* Build configuration list for PBXNativeTarget "GPTCPScoketToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B20C01AD11C2E009A2DFB /* Debug */,
+				048B20C11AD11C2E009A2DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048B20911AD11C2E009A2DFB /* Project object */;
+}
